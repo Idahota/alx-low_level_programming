@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * print_numbers - prints 0123456789\n
+ * _strlen - Returns the length of a string.
+ * @str: string.
  *
- * Return: void
+ * Return: Length.
  */
-
-void print_numbers(void)
+size_t _strlen(const char *str)
 {
-	char c;
+	size_t len = 0;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
+	while (*str++)
+		len++;
+
+	return (len);
 }
