@@ -1,15 +1,13 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * _strcpy - Copies a string pointed to by @src, including the
- * terminating null byte, to a buffer pointed to by @dest.
- * @dest: A buffer to copy the string to.
- * @src: A source string to cpoy.
+ * main - Generates random valid passwords for the
+ * program 101-crackme.
  *
- * Return: A pointer to the destination string @dest.
+ * Return: Always 0.
  */
-
-
 int main(void)
 {
 	char password[84];
