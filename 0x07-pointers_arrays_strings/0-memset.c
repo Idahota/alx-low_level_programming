@@ -2,14 +2,22 @@
 
 /**
  * _memset - Fills the first n bytes of the memory area
+<<<<<<< HEAD
  * pointed to by 's' with the constant byte 'b'
  * A pointer to the memory area to be filled 's'
  * The character to fill the memory area with 'b'
  * The number of bytes to be filled 'n'
  *
  * Return: A pointer to the filled memory area 's'
+=======
+ * pointed to by @s with the constant byte @c
+ * @s: A pointer to be filled
+ * @b: The character to filled
+ * @n: The number of bytes
+ *
+ * Return: A pointer @s.
+>>>>>>> 68e2d572dead24bcf00866e9d32fdf8368235d19
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int index;
