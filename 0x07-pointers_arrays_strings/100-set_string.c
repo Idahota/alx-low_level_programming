@@ -6,3 +6,7 @@ i#include "main.h"
  * @to : The char.
  */
 
+void set_string(char **s, char *to)
+{
+	*s = to;
+}
