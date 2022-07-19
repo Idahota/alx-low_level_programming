@@ -8,9 +8,8 @@
  * @index: The index of the node to be deleted - indices start at 0.
  *
  * Return: On success - 1.
- *        On failure - -1.
+ *         On failure - -1.
  */
-
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *tmp, *copy = *head;
@@ -33,7 +32,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 		copy = copy->next;
 	}
-	
+
 	tmp = copy->next;
 	copy->next = tmp->next;
 	free(tmp);
